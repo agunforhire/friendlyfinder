@@ -1,0 +1,49 @@
+.app-section{
+    padding-top: 20%;
+}
+
+#title{
+    font-size: 100px; 
+}
+
+.icon{
+    color: red;
+}
+
+#survey-title{
+    text-align: center;
+    font-size: 40px;
+}
+
+.question-number, #modal-title,#survey-title{
+    color: red;
+}
+
+.question-set,#links,#name,#photo,#match-img,#similarity,#personality,
+#match-name,#modal-title,.modal-body{
+    text-align: center;
+}
+#match-img{
+    padding-left: 2%;
+}
+#about-you{
+    font-size: 30px;
+}
+
+#home-body{
+    background-image: url("../images/friends.jpg");
+}
+
+#survey-body{
+    /* background-image: url("../images/437048.jpg"); */
+    background-size: 150%;
+}
+
+
+#api-link, #github-link{
+    color: white;
+}
+
+/* .chosen-select{
+    background-color: black;
+} */

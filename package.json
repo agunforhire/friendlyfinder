@@ -1,0 +1,23 @@
+{
+  "name": "09-friend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agunforhire/friendlyfinder.git"
+  },
+  "author": "James Wilcox",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agunforhire/friendlyfinder/issues"
+  },
+  "homepage": "https://github.com/agunforhire/friendlyfinder#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}

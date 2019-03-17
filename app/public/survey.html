@@ -1,0 +1,283 @@
+!DOCTYPE html>
+<html lang="en" class="gr__friend-finder-fsf_herokuapp_com">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Survey</title>
+    <link rel="stylesheet" type="text/css" href="/public/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/public/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.jquery.min.js"></script>
+
+</head>
+
+<body id = "survey-body">
+    <div class="container" id = "survey-container">
+        <h2 id="survey-title">Survey Questions</h2>
+        <hr>
+        <div class="row">
+            <div class="col-12 question-set">
+                <h3 id="about-you"><strong>About You</strong></h3>
+                <h4>Name (Required)</h4>
+                <input type="text" id="name" class="form-control" value="Please enter your full name" required="">
+
+                <h4>Link to Photo Image (Required)</h4>
+                <input type="text" id="photo" class="form-control" value="Use your Twitter jpg link or other social media!"
+                    required="">
+                <hr>
+            </div>
+        </div>
+    </div>
+
+        <div class="row q-set">
+            <div class="col-6 question-set">
+                <h3 class="question-number"><strong>Question 1</strong></h3>
+                <h4>You enjoy smashing the patriarchy</h4>
+                <select class="chosen-select" id="q1" style="display: inline-block;">
+                    <option value=""></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+
+                <h3 class="question-number"><strong>Question 2</strong></h3>
+                <h4>You would consider yourself quite the extrovert.</h4>
+                <select class="chosen-select" id="q2" style="display: inline-block;">
+                    <option value=""></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+
+
+                <h3 class="question-number"><strong>Question 3</strong></h3>
+                <h4>You prefer relying on others than being more of a "do it yourself" kind of person.</h4>
+                <select class="chosen-select" id="q3" style="display: inline-block;">
+                    <option value=""></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+
+
+                <h3 class="question-number"><strong>Question 4</strong></h3>
+                <h4>You think that the workers should own the means of production</h4>
+                <select class="chosen-select" id="q4" style="display: inline-block;">
+                    <option value=""></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+
+
+                <h3 class="question-number"><strong>Question 5</strong></h3>
+                <h4>Honesty is one of the most important things in a relationship.</h4>
+                <select class="chosen-select" id="q5" style="display: inline-block;">
+                    <option value=""></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+
+            </div>
+            <div class="col-6 question-set">
+                <h3 class="question-number"><strong>Question 6</strong></h3>
+                <h4>It is often difficult for you to relate to other people’s feelings.</h4>
+                <select class="chosen-select" id="q6" style="display: inline-block;">
+                    <option value=""></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+
+
+                <h3 class="question-number"><strong>Question 7</strong></h3>
+                <h4>Good friends are meant for complaining to, an support from them is expected.</h4>
+                <select class="chosen-select" id="q7" style="display: inline-block;">
+                    <option value=""></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+
+                <h3 class="question-number"><strong>Question 8</strong></h3>
+                <h4>It's easier to be friends with others of the same ethnicity.</h4>
+                <select class="chosen-select" id="q8" style="display: inline-block;">
+                    <option value=""></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+
+                <h3 class="question-number"><strong>Question 9</strong></h3>
+                <h4>Generally speaking, you prefer to invoke your opinion as opposed to keep it to yourself.</h4>
+                <select class="chosen-select" id="q9" style="display: inline-block;">
+                    <option value=""></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+
+                <h3 class="question-number"><strong>Question 10</strong></h3>
+                <h4>Being punctual is something that you take seriously.</h4>
+                <select class="chosen-select" id="q10" style="display: inline-block;">
+                    <option value=""></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+
+            </div>
+        </div>
+
+        <br>
+        <br>
+        <button type="submit" class="btn btn-primary btn-lg btn-block btn-danger" id="submit"><i class="fa fa-check-circle"
+                aria-hidden="true"></i>
+            Submit</button>
+
+        <hr>
+
+        <footer class="footer">
+            <div class="container" id="links">
+                <p><button class="btn btn-secondary btn-danger"><a href="/api/friends" id="api-link">API Friends List</a></button></p>
+            </div>
+        </footer>
+
+    </div>
+    <div id="results-modal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">×</button>
+                    <h2 class="modal-title"><strong>Congrats! We found your match :)</strong></h2>
+                </div>
+                <div class="modal-body">
+                    <h2 id="match-name"></h2>
+                    <ul>
+                        <li>
+                            <p id="similarity"></p>
+                        </li>
+                        <li>
+                            <p id="personality"></p>
+                        </li>
+                    </ul>
+
+                    <img id="match-img" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg"
+                        alt="">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+<script type="text/javascript">
+    var config = {
+        ".chosen-select": {},
+        ".chosen-select-deselect": {
+            allow_single_deselect: true
+        },
+        ".chosen-select-no-single": {
+            disable_search_threshold: 10
+        },
+        ".chosen-select-no-results": {
+            no_results_text: "Oops, nothing found!"
+        },
+        ".chosen-select-width": {
+            width: "95%"
+        }
+    };
+    for (var selector in config) {
+        $(selector).chosen(config[selector]);
+    }
+
+    $("#submit").on("click", function (event) {
+        event.preventDefault();
+        function validateForm() {
+            var isValid = true;
+            $(".form-control").each(function () {
+                if ($(this).val() === "") {
+                    isValid = false;
+                }
+            });
+            $(".chosen-select").each(function () {
+                if ($(this).val() === "") {
+                    isValid = false;
+                }
+            });
+            return isValid;
+        }
+        if (validateForm()) {
+            var userData = {
+                name: $("#name").val(),
+                photo: $("#photo").val(),
+                scores: [
+                    $("#q1").val(),
+                    $("#q2").val(),
+                    $("#q3").val(),
+                    $("#q4").val(),
+                    $("#q5").val(),
+                    $("#q6").val(),
+                    $("#q7").val(),
+                    $("#q8").val(),
+                    $("#q9").val(),
+                    $("#q10").val()
+                ]
+            };
+            $.post("/api/friends", userData, function (data) {
+                
+                $("#match-name").text(data.name);
+                $("#match-img").attr("src", data.photo);
+                $("#similarity").text("You answered " + data.sameAnswers + "% of the questions the same!")
+                $("#results-modal").modal("toggle");
+                switch (data.personality) {
+                    case "extroverted":
+                        $("#personality").text("You both share a degree of extroversion and enjoy socializing with others!");
+                        break;
+
+                    case "middle":
+                        $("#personality").text("You both aren't considered extraverts, but also aren't introverts either. :)");
+                        break;
+      
+                    case "introverted":
+                        $("#personality").text("You both are more on the introverted side, and enjoy having time to yourself.");
+                        break;
+                }
+            });
+        }
+        else {
+            alert("Please fill out all fields before submitting!");
+        }
+    });
+</script>
+
+</html>
